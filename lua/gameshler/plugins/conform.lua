@@ -15,6 +15,9 @@ return {
 				javascript = { "prettier" },
 				typescript = { "prettier" },
 				elixir = { "mix" },
+				bash = { "shfmt" },
+				sh = { "shfmt" },
+				zsh = { "shfmt" },
 			},
 			formatters = {
 				["clang-format"] = {

@@ -35,6 +35,7 @@ return {
 				"rust_analyzer",
 				"vtsls",
 				"tailwindcss",
+				"bashls",
 			},
 			handlers = {
 				function(server_name)
