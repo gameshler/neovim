@@ -8,21 +8,12 @@ return {
 				lsp_format = "fallback",
 			},
 			formatters_by_ft = {
-				c = { "clang-format" },
-				cpp = { "clang-format" },
 				lua = { "stylua" },
-				go = { "gofmt" },
 				javascript = { "prettier" },
 				typescript = { "prettier" },
-				elixir = { "mix" },
 				bash = { "shfmt" },
 				sh = { "shfmt" },
 				zsh = { "shfmt" },
-			},
-			formatters = {
-				["clang-format"] = {
-					prepend_args = { "-style=file", "-fallback-style=LLVM" },
-				},
 			},
 		})
 
