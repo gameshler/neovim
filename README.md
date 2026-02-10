@@ -9,6 +9,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/gameshler/neovim/main/setup.
 - ripgrep
 - lua-rocks
 - lua
+- [Nerd Font](https://www.nerdfonts.com/font-downloads)
 
-uses lazy.nvim to setup everything. 
+I use lazy.nvim to setup everything. 
 
