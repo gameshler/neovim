@@ -38,6 +38,11 @@ return {
 				"vtsls",
 				"tailwindcss",
 				"bashls",
+				"shellcheck",
+				"luacheck",
+				"shfmt",
+				"prettier",
+				"clang-format",
 			},
 			handlers = {
 				function(server_name)
