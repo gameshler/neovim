@@ -28,7 +28,17 @@ return {
 		)
 
 		require("fidget").setup({})
-		require("mason").setup()
+		require("mason").setup(
+			{
+				ensure_installed = {
+					"shfmt",
+					"clang-format",
+					"prettier",
+					"shellcheck",
+					"luacheck",
+				}
+			}
+		)
 		require("mason-lspconfig").setup({
 			ensure_installed = {
 				"lua_ls",
@@ -38,11 +48,6 @@ return {
 				"vtsls",
 				"tailwindcss",
 				"bashls",
-				"shellcheck",
-				"luacheck",
-				"shfmt",
-				"prettier",
-				"clang-format",
 			},
 			handlers = {
 				function(server_name)
